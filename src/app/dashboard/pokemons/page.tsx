@@ -1,6 +1,4 @@
-import { PokemonGrid } from "./components/PokemonGrid";
-import { PokemonsResponse } from "./interfaces/pokemons-response";
-import { SimplePokemon } from "./interfaces/simple-pokemon";
+import { PokemonGrid, PokemonsResponse, SimplePokemon } from "@/pokemons";
 
 const getPokemons = async (
   limit = 20,
